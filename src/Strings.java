@@ -31,7 +31,7 @@ public class Strings {
 
         //////////////////////////////////////////////////////////////////////////////////////
 
-        String line = "Hello from java development class";
+      /*  String line = "Hello from java development class";
         String word = "    Anis ";
         int wordLength = word.length();
         int  wordLength1 =  wordLength + 5000;
@@ -64,7 +64,61 @@ public class Strings {
         System.out.println(line.startsWith("Anis"));
         System.out.println(line.startsWith("He"));
         System.out.println(line.endsWith("class"));
+*/
+        /////////////////////////////////////////////////////////////////////////
 
+        String text = "Java class";
+        System.out.println(text.isEmpty());
+        System.out.println(text.substring(3));
+        System.out.println(text.substring(5));
+
+        int l = text.length();
+        System.out.println(l);
+
+        System.out.println(text.trim());
+
+        String ss = "java";
+        String ss1 = "JAVA";
+
+        System.out.println(ss.equals(ss1));
+
+        String t1 =  "PHP Exercises and";
+        String t2 = " Python Exercises";
+        System.out.println(t1.concat( " "+ t2));
+
+        /*int result = t1.length() + t2.length();
+        System.out.println(result);*/
+
+        System.out.println(t1.equals(t2));
+        System.out.println(t1.replace("PHP", "Java"));
+
+        String email = "email@gmail.com ";
+        System.out.println(email.contains("@"));
+
+
+        int result = 1 + 2; // result is now 3
+        System.out.println(result);
+
+        result -= 1; // result is now 2
+        System.out.println(result);
+
+        result *= 2; // result is now 4
+        System.out.println(result);
+
+        result  /=  2; // result is now 2
+        System.out.println(result);
+
+        result = result + 8; // result is now 10
+        result %= 7; // result is now 3
+        System.out.println(result);
+
+
+        int i = 3;
+        System.out.println(++i);
+        System.out.println(++i);
+        System.out.println(++i);
+        System.out.println(i++);
+        System.out.println(i);
 
 
 
