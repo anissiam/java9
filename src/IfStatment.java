@@ -4,7 +4,61 @@ import java.util.Scanner;
 public class IfStatment {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("plz enter num");
+        System.out.println("Plz enter thr mark");
+        byte mark = scanner.nextByte();
+        if (mark!=0){
+            if (mark<=25){
+                System.out.println("F");
+            } else if (mark>25 && mark<=45) {
+                System.out.println("E");
+            } else if (mark>45 && mark<=50) {
+                System.out.println("D");
+            } else if (mark>50 && mark<=60) {
+                System.out.println("C");
+            }else if (mark>60 && mark<=80) {
+                System.out.println("B");
+            }else {
+                System.out.println("A");
+            }
+        }
+
+
+
+        /*int x = scanner.nextInt();
+        if (x>0){
+            System.out.println("up to zero");
+        } else if (x<0) {
+            System.out.println("Less than zero");
+        } else {
+            System.out.println("Eqal to zero");
+        }*/
+
+
+       /* System.out.println("Plz enter the text");
+        String line = scanner.nextLine();
+        if (!line.isEmpty()){
+            if (line.contains("@") ){
+                System.out.println("Email");
+            }else if (line.contains("://")){
+                System.out.println("Url");
+            }else {
+                System.out.println("normal text");
+            }
+        }else {
+            System.out.println("Empty");
+        }*/
+
+
+
+    /*    int x = 3;
+        if (x > 0) {
+            System.out.println("x is greater than 0");
+        }else{
+    System.out.println( "x is less than or equal 0");
+}*/
+////////////////////////////////////////////////////////////////////
+
+      /*  System.out.println("plz enter num");
         int num = scanner.nextInt();
 
         switch (num){
@@ -17,7 +71,7 @@ public class IfStatment {
                 break;
             case 4 :
                 System.out.println("4");
-        }
+        }*/
 
         /*if (num==1){
             System.out.println("1");
