@@ -3,6 +3,134 @@ import java.util.Scanner;
 public class Loops {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        //Print month
+        for (int i = 0; i <4 ; i++) {
+            System.out.println("Week" + (i + 1));
+            for (int j = 0; j < 7; j++) {
+                System.out.print("day " + (j + 1) + "  ");
+            }
+            System.out.println();
+        }
+            /*
+            *
+            * *
+            * **
+            * ****
+            * *****
+            */
+        /*for (int i = 0; i <5 ; i++) {
+            for (int j = 0; j <=i ; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }*/
+
+       /* System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+*/
+        /*for (int i = 0; i < 5; i++) {
+            System.out.println("*****");
+        }*/
+
+        /*for (int i = 0; i <5 ; i++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.print("*");
+
+            }
+            System.out.println();
+        }*/
+
+        // اخراج الرقم الاكبر والاصغر ل 5 ارقام
+        /*int max = 0;
+        int min = 0;
+        int num;
+        for (int i = 0; i <5 ; i++) {
+            System.out.println("Plz enter the num ");
+            num = scanner.nextInt();
+            if (i==0){
+                min = num;
+            }
+            if (max<num){
+                max = num;
+            }
+
+            if (min>num){
+                min = num;
+            }
+
+        }
+        System.out.println("Max is " + max);
+        System.out.println("Min is " + min);*/
+
+
+        // ادخال اسماء والتوقف عند stop
+        /*for (;;){
+            System.out.println("Plz enter the word");
+            String name = scanner.nextLine();
+            if (name.equalsIgnoreCase("stop")){
+                System.out.println("Stopped");
+                break;
+            }
+        }*/
+
+
+        // ادخال ارقام ومعرفة الزوجي والفردي
+        /*for (;;){
+            System.out.println("Plz enter the num");
+            int i = scanner.nextInt();
+            if (i ==0){
+                System.out.println(" Zero");
+            }else if (i%2!=0){
+                System.out.println(i  + " is Odd");
+            }else {
+                System.out.println(i  + " is Even");
+            }
+        }*/
+
+
+        /*int i = 0;
+        while (i<=100){
+            i++;
+            if (i%2==0){
+                System.out.println(i);
+            }
+        }*/
+
+        /*for (int i = 0; i <= 100;  i++) {
+
+            if (i % 2 == 0 && i !=0) {
+                System.out.println(i);
+            }
+        }*/
+
+
+
+
+        /*int i = 0;
+        while (i<5){
+            System.out.println("Hello");
+            i++;
+        }*/
+
+
+        /*for ( int i = 0;i<5;  i++){
+            System.out.println("Hello");
+        }*/
+
+
+        /*int i = 5;
+        do {
+            System.out.println("Hello");
+        }while (i<5);*/
+
+       /* while (i<5){
+            System.out.println("Hello");
+        }*/
+
+        /*
         System.out.println("Plz enter the line ");
         String line = scanner.nextLine();
 
@@ -19,7 +147,7 @@ public class Loops {
             System.out.println(massage);
 
             line = scanner.nextLine();
-        }
+        }*/
        /* System.out.println("Plz enter num");
         int  num = scanner.nextInt();
         while (num!=0){
@@ -73,10 +201,6 @@ public class Loops {
         }*/
 
 
-
-
-
-
 //        System.out.println("Hello"); 0
 //        System.out.println("Hello");1
 //        System.out.println("Hello");2
@@ -117,6 +241,6 @@ public class Loops {
 */
 
 
-
     }
 }
+
