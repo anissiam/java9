@@ -3,14 +3,72 @@ import java.util.Scanner;
 public class Loops {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        /*for (int i = 5 ;i >0 ; i--) {
+            for (int j = 0; j<i ; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }*/
+
+
+        /*for (int i = 1; i <= 3; i++) {
+            for (int j = 1; j <=10 ; j++) {
+                System.out.println(i + " * " + j + " = " + (i * j));
+            }
+            System.out.println("======================");
+        }
+*/
+        /*for (int i = 0; i <5 ; i++) {
+            if (i==3){
+                continue;
+            }
+            System.out.println(i);
+        }*/
+        /*for (;;){
+            System.out.println("Enter any num");
+            int num = scanner.nextInt();
+            if (num==0){
+                System.out.println("not valid");
+                continue;
+            }
+        }*/
+
+
+        /*System.out.println("Enter the num");
+        int num = scanner.nextInt();
+        int fact = 1;
+        for (int i = num; i > 1; i--) {
+            fact *= i;
+        }
+        System.out.println(fact);*/
+
+        /*int sum = 0;
+        for (int i = 0; i <= 100; i++) {
+            if (i%2==0){
+                sum += i;
+            }
+
+        }
+        System.out.println("Sum is " + sum);*/
+
+        /*for (int i = 1; i < 10; i++) {
+            if (i!=9){
+                System.out.print("1/" + i  + "+ ");
+            }else {
+                System.out.print("1/" + i );
+            }
+        }*/
+
+
         //Print month
-        for (int i = 0; i <4 ; i++) {
+       /* for (int i = 0; i <4 ; i++) {
             System.out.println("Week" + (i + 1));
             for (int j = 0; j < 7; j++) {
                 System.out.print("day " + (j + 1) + "  ");
             }
             System.out.println();
-        }
+        }*/
             /*
             *
             * *
