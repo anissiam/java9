@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Project1 {
@@ -46,6 +47,35 @@ public class Project1 {
                         marks[i] = scanner.nextInt();
                     }
                     break;
+                case 4 :
+
+                    for (int i = 0; i <marks.length ; i++) {
+                        System.out.print(marks[i] + "\t");
+                    }
+
+                    //Arrays.sort(marks); Quick sort
+
+                    //Bubble sort
+                    int temp = 0;
+                    for (int i = 0; i <marks.length ; i++) {
+                        for (int j = i+1; j < marks.length ; j++) {
+                            if (marks[i] > marks[j]) {
+                                temp = marks[i];
+                                marks[i] =marks[j];
+                                marks[j] = temp;
+                            }
+                        }
+                    }
+                    System.out.println("Before sort");
+
+                    for (int i = 0; i <marks.length ; i++) {
+                        System.out.print(marks[i] + "\t");
+                    }
+
+                    System.out.println("After Sort");
+
+                    break;
+
                 case  5:
                     scanner.nextLine();
                     System.out.println("1)Names\n2)Marks");

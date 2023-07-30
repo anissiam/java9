@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Arrays {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         String[] names = {"Anis", "SAmi", " roaa", "nwal","SAmi", "mohamed", "Ali"};
         for (int i = 0; i <names.length ; i++) {
