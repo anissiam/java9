@@ -1,3 +1,5 @@
+package basics;
+
 public class Calc {
     static void sub(int s, int v) {
         System.out.println(s - v);

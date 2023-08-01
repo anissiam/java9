@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.Scanner;
 
 public class Input {
@@ -73,7 +75,7 @@ public class Input {
 
 
         /*System.out.println("Plz enter your name ");
-        String name = input.nextLine(); // Strings
+        String name = input.nextLine(); // basics.Strings
 
         System.out.println("Plz enter your age ");
         int age = input.nextInt();

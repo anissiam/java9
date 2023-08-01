@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.Scanner;
 
 public class Project2Methods {
@@ -9,7 +11,7 @@ public class Project2Methods {
         int c = 0;
         do {
             System.out.println("================================================================");
-            System.out.println("1)Show Arrays\n2)Add Names\n3)Add Marks\n4)Sort Mark Array\n5)Update\n6)Delete\n7)Exit");
+            System.out.println("1)Show basics.Arrays\n2)Add Names\n3)Add Marks\n4)Sort Mark Array\n5)Update\n6)Delete\n7)Exit");
             c = scanner.nextInt();
             switch (c){
                 case 1 :
@@ -44,7 +46,7 @@ public class Project2Methods {
              System.out.print(marks[i] + "\t");
          }
 
-         //Arrays.sort(marks); Quick sort
+         //basics.Arrays.sort(marks); Quick sort
 
          //Bubble sort
          int temp = 0;
