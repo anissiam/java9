@@ -2,6 +2,14 @@ package oop.enc;
 
 public class Main {
     public static void main(String[] args) {
+        Employee employee = new Employee("Robert", 1994, 0, "64C- WallsStreat");
+        employee.print();
+
+        /*Account account = new Account("anis", "sdfdgsfg", 200, 1);
+        account.printData();
+        account.change();*/
+
+/*
 
         Student student = new Student("ANis", "CS", 30);
         student.printData();
@@ -9,6 +17,7 @@ public class Main {
         System.out.println(student.getAge());
         student.setName("Sami");
         student.printData();
+*/
 
         /*Car obj = new Car("BMW", "Blue", 200);
         obj.printCar();
