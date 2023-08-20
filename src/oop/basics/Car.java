@@ -1,11 +1,13 @@
 package oop.basics;
 
-public class Car {
-    String name;
-    String color;
-    int maxSpeed;
+import java.io.Serializable;
 
-    void printCar(){
+public class Car implements Serializable {
+    public String name;
+     public String color;
+   public int maxSpeed;
+
+    public void printCar(){
         System.out.println("Name:" + name + " Color:" + color + " Speed:" + maxSpeed);
     }
 }
