@@ -1,10 +1,10 @@
 package oop.projectArrayList;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
     static Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args) {
         int c;
         do {
@@ -34,10 +34,12 @@ public class Main {
                     break;
                 case 6:
 
-
+                    Panel.orderByAge();
 
                     break;
                 case 7:
+
+                    Panel.getAllSuccess();
                     break;
 
 
